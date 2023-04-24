@@ -34,7 +34,7 @@
 
 # 📖 [Math Magician] <a name="about-project"></a>
 
-**[To_do_list]** This project is basic website that allows users to add/remove tasks from a to do from a list and used the webpack technology.
+**[Math-magician]** This project is an basic calculator web app  that allows users to perform simple calculations.
 
 ## 🛠 Built With <a name="HTML, CSS, Javascript and React"></a>
 
@@ -46,8 +46,7 @@
     <li><a href="https://html.com/#What_is_HTML">"HTML"</a></li>
     <li><a href="https://html.com/css/#What_is_CSS">"CSS"</a></li>
     <li><a href="https://www.javascript.com/">"Javascript"</a></li>
-    <li><a href="https://www.javascript.com/">"Javascript"</a></li>
-    <li><a href="https://fr.legacy.reactjs.org/">"Javascript"</a></li>
+    <li><a href="https://fr.legacy.reactjs.org/">"React"</a></li>
   </ul>
 </details>
 
@@ -105,8 +104,9 @@ Install this project with:
 
 ```
 1. download the project from clone
-2. open live server for the project
-3. You can see it in the browser
+2. Install all dependencies using *npm install*
+3. Run *npm start*
+4. You can see it in the browser
 ```
 
 ### Build for production
