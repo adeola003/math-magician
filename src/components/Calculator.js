@@ -5,8 +5,9 @@ const Calculator = () => (
   <div className="calculator">
     <div className="display">0</div>
     <div className="button-row">
-      <button className="button button-light" type="button">C</button>
-      <button className="button button-light" type="button">DEL</button>
+      <button className="button button-light" type="button">AC</button>
+      <button className="button button-light" type="button">+/-</button>
+      <button className="button button-light" type="button">%</button>
       <button className="button button-light" type="button">&divide;</button>
     </div>
     <div className="button-row">
