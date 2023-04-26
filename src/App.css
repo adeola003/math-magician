@@ -26,6 +26,7 @@
 
 .button {
   width: 60px;
+  flex-grow: 1;
   height: 60px;
   border: none;
   background-color: #eee;
