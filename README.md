@@ -57,6 +57,7 @@
 - [x] Create a simple calculation web app
 - [x] Add all necessary operations for basic a basic calculator.
 - [x] Used React technology.
+- [x] Used hooks to fetch data from an API and display random quotes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
