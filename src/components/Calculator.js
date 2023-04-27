@@ -17,7 +17,6 @@ const Calculator = () => {
   return (
     <div className="calculator">
       <input type="text" className="display" value={state.next || state.total || 0} disabled />
-      <div className="display">0</div>
       <div className="button-row">
         <button className="button button-light" type="button" onClick={operation}>AC</button>
         <button className="button button-light" type="button" onClick={operation}>+/-</button>
@@ -28,7 +27,7 @@ const Calculator = () => {
         <button className="button" type="button" onClick={operation}>7</button>
         <button className="button" type="button" onClick={operation}>8</button>
         <button className="button" type="button" onClick={operation}>9</button>
-        <button className="button button-light" type="button" onClick={operation}>&times;</button>
+        <button className="button button-light" type="button" onClick={operation}>x</button>
       </div>
       <div className="button-row">
         <button className="button" type="button" onClick={operation}>4</button>
