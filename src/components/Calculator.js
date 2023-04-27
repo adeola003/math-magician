@@ -1,5 +1,4 @@
 /* eslint-disable linebreak-style */
-import React from 'react';
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
