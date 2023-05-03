@@ -76,3 +76,44 @@
   margin-top: 10px;
   font-style: italic;
 }
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.links-container {
+  display: flex;
+  column-gap: 10px;
+}
+
+.links {
+  text-decoration: none;
+  color: #333;
+  font-weight: 800;
+}
+
+/* Home styles */
+
+.welcome {
+  text-align: center;
+  background-color: #ccc;
+}
+
+.instructions {
+  font-size: medium;
+  font-weight: 600;
+  list-style: none;
+  margin: 20px;
+}
+
+.github-link {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: 800;
+  margin-left: 10px;
+}
