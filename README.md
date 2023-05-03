@@ -178,7 +178,7 @@ Feel free to check the [https://github.com/adeola003/math-magician/issues](issue
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this feel free to follow me on github and give this project a star..
+If you like this feel free to follow me on github and give this project a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
