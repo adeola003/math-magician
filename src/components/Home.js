@@ -18,7 +18,9 @@ const Home = () => (
     </ul>
     <p>
       Enjoy this app and feel free to star this project on the
-      <a href="https://github.com/adeola003/math-magician" target="blank" className="github-link">Github</a> repository
+      <a href="https://github.com/adeola003/math-magician" target="blank" className="github-link">Github</a>
+      {' '}
+      repository
     </p>
   </div>
 );
