@@ -20,7 +20,7 @@ class App extends React.Component {
           <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path='/home' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='/calculator' element={<Calculator />} />
             <Route path='/quote' element={<QuoteComponent />} />
           </Routes>
