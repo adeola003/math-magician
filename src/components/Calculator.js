@@ -16,7 +16,7 @@ const Calculator = () => {
 
   return (
     <div className="calculator">
-      <input type="text" className="display" value={state.next || state.total || 0} disabled />
+      <input data-testid="screen" type="text" className="display" value={state.next || state.total || 0} disabled />
       <div className="button-row">
         <button className="button button-light" type="button" onClick={operation}>AC</button>
         <button className="button button-light" type="button" onClick={operation}>+/-</button>
