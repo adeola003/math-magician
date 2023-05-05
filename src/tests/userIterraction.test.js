@@ -43,4 +43,12 @@ describe('Calculator', () => {
     fireEvent.click(getByText('='));
     expect(getByTestId('screen').value).toBe('4');
   });
+
+  it('should return the result the modulus on the screen', () => {
+    fireEvent.click(getByText('4'));
+    fireEvent.click(getByText('%'));
+    fireEvent.click(getByText('2'));
+    fireEvent.click(getByText('='));
+    expect(getByTestId('screen').value).toBe('0');
+  });
 });
