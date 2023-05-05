@@ -13,10 +13,14 @@ const Calculator = () => {
     const newState = calculate(state, e.target.textContent);
     addNewState(newState);
   };
+  const output = document.getElementsByTagName('input').value;
+  const show = () => {
+    console.log(output);
+  }
 
   return (
     <div className="calculator">
-      <input type="text" className="display" value={state.next || state.total || 0} disabled />
+      <input data-testid="screen" type="text" className="display" value={state.next || state.total || 0} disabled />
       <div className="button-row">
         <button className="button button-light" type="button" onClick={operation}>AC</button>
         <button className="button button-light" type="button" onClick={operation}>+/-</button>
@@ -51,4 +55,3 @@ const Calculator = () => {
 };
 
 export default Calculator;
-

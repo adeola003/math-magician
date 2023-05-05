@@ -6,6 +6,7 @@ exports[`renders correctly 1`] = `
 >
   <input
     className="display"
+    data-testid="screen"
     disabled={true}
     type="text"
     value={0}
