@@ -16,7 +16,7 @@ const Calculator = () => {
   const output = document.getElementsByTagName('input').value;
   const show = () => {
     console.log(output);
-  }
+  };
 
   return (
     <div className="calculator">
